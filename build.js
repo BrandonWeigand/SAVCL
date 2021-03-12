@@ -36,7 +36,7 @@ build.format={
 build.file={
     get:function(file_url){
         // get a file from the url
-        url="https://raw.githubusercontent.com/BrandonWeigand/web_metrics/master/debug.json?token=ADVK6DM3WZ7CXDIZ25XHCCDAJOQAS";
+        url="./componets/header.json";
 
         fetch(url)
         .then(response => {
