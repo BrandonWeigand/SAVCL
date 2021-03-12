@@ -1,0 +1,6 @@
+*.gitattributes text
+.gitignore      text
+*.md            text
+LICENCE         text
+# export comit hash to the $Id# in the LICENCE file
+LICENCE idents export-subst $Format:%d - %H$
