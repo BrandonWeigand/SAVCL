@@ -1,0 +1,23 @@
+{
+    "title":"AGREMENT TO USE AT YOUR OWN RISK AND WITHOUT WARRANTY",
+    "order":"<$MAX$>-1",
+    "content":[
+        "This software is provided \"AS IS\", without any kind of warranty or guarantee, express, implied or otherwise.",
+        "<!MEMBERS!> are not liable for damages, claims or other liabilities witch may arise from use, connection or intended causation of this <!SOFTWARE!> or interactions with <!MEMBERS!> in relation, connection or assosiation to this <!SOFTWARE!>.",
+        "<!YOU!> assume any cost, damages, and/or liabilities that arise from use, connection or intended causation of this <!SOFTWARE!> under all cercemstances, even if one or more <!MEMBERS!>.",
+        "This <!LICENCE AGREMENT!> is limited to the maximum extent permitted by the <!YOUR!> <!LOCAL AREA!>'s <!LAW!>s."
+    ],
+    "definitions":{
+
+
+        "":[
+            "LOCAL AREA",
+            "LICENCE",
+            "LICENCE AGREMENT",
+            "LAW",
+            "YOU",
+            "AUTHORs, COPYRIGHT HOLDERs, CONTRIBUTERs, DISTRIBUTERs and AFFILIATEs"
+        ],
+        "SOFTWARE":[""]
+    }
+}

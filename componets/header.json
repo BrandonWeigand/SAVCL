@@ -1,0 +1,23 @@
+{
+    "title":"SOFTWARE LICENCE AND LICENCE TERMS",
+    "order":"<$MIN$>",
+    "content":[
+        "SAVCL License <$ID$>",
+        "A copy of this License can be found at <$LICENCE_URL$>",
+        "Copyright (c) <$YEAR$> <$OWNER$>",
+        "All rights reserved"
+    ],
+    "definitions":{
+
+
+        "":[
+            "LOCAL AREA",
+            "LICENCE",
+            "LICENCE AGREMENT",
+            "LAW",
+            "YOU",
+            "AUTHORs, COPYRIGHT HOLDERs, CONTRIBUTERs, DISTRIBUTERs and AFFILIATEs"
+        ],
+        "SOFTWARE":[""]
+    }
+}
