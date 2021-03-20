@@ -5,10 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAVCL LICENCE BUILDER</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="./build.js"></script>
 </head>
 <body>
-    
-    <script>build.file.get();</script>
+    <div id='main' class='card'>
+        
+        <div id="menu">
+            <h2><a href="#menu">Menu</a></h2>
+            <ul>
+                <li><input type="button" value="Save File" onclick="build.file.save();"></li>
+                <li><input type="button" value="Load File" onclick="build.file.load();"></li>
+                <li><input type="button" value="Build File" onclick="test();"></li>
+            </ul>
+        </div>
+        <h1 id='title'>SAVCL LICENCE BUILDER</h1>
+
+        <div id="content"class='card'>
+            <ul>
+                <li>
+                    <input key="name" type="text" placeholder="name"/>
+                    <input key="order" type="number" placeholder="Order" step='1'/>
+                    <textarea key="text"></textarea>           
+                </li>
+                <li>
+                    <input key="name" type="text" placeholder="name"/>
+                    <input key="order" type="number" placeholder="Order" step='1'/>
+                    <textarea key="text"></textarea>           
+                </li>
+                <li>
+                    <input key="name" type="text" placeholder="name"/>
+                    <input key="order" type="number" placeholder="Order" step='1'/>
+                    <textarea key="text"></textarea>           
+                </li>
+                <li>
+                    <input key="name" type="text" placeholder="name"/>
+                    <input key="order" type="number" placeholder="Order" step='1'/>
+                    <textarea key="text"></textarea>           
+                </li>
+            </ul>
+
+        </div>
+        
+        <textarea id='doc'></textarea>
+        
+        <div id='defs' class='card'>
+            <h2><a href="#defs">Definitions</a></h2>
+            <ul>
+                <li><input type="text" id="key_0"><input type="text" id="value_0"></li>
+                <li><input type="text" id="key_1"><input type="text" id="value_1"></li>
+                <li><input type="text" id="key_2"><input type="text" id="value_2"></li>
+            </ul>
+        </div>
+    </div>
+    <form id='build_dom_control' hidden aria-hidden="true">
+        <input type="file" name="load_file" id="load_file" multiple>
+        <a id='save_file' href='#error_no_data'>Save File</a>
+    </form>
+    <script>
+        build.file.init();
+    </script>
+
 </body>
 </html>

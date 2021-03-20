@@ -1,23 +1,24 @@
 {
     "title":"SOFTWARE LICENCE AND LICENCE TERMS",
-    "order":"<$MIN$>",
+    "order":"<%<!MIN!>%>",
     "content":[
-        "SAVCL License <$ID$>",
-        "A copy of this License can be found at <$LICENCE_URL$>",
-        "Copyright (c) <$YEAR$> <$OWNER$>",
+        "SAVCL License <!ID!>",
+        "A copy of this License can be found at <!LICENCE_URL!>",
+        "Copyright (c) <!YEAR!> <!OWNER!>",
         "All rights reserved"
     ],
-    "definitions":{
-
-
+    "defs":{
         "":[
             "LOCAL AREA",
-            "LICENCE",
             "LICENCE AGREMENT",
-            "LAW",
-            "YOU",
-            "AUTHORs, COPYRIGHT HOLDERs, CONTRIBUTERs, DISTRIBUTERs and AFFILIATEs"
+            "LAW"
         ],
+        "MEMBER":[
+            "a group of one or more of the following",
+            "<@AUTHOR@>, <@COPYRIGHT HOLDER@>, <@CONTRIBUTER@>, <@DISTRIBUTER@> and <@AFFILIATE@>"
+        ],
+        "YOU":[""],
+        "LICENCE":[""],
         "SOFTWARE":[""]
     }
 }

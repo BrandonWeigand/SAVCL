@@ -1,0 +1,138 @@
+:root{
+    --c_bg:rgb(70, 131, 180);
+}
+*{
+    transition:all 0.5s ease-in-out;
+    
+    letter-spacing: 0px;
+    word-spacing: 0.1rem;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    font: 600 1rem Georgia;
+    border-width: 0px;
+    border-style: solid;
+    border-color: currentColor;
+
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding:0px;
+    margin:0px;
+    width:100%;
+    text-align: center;
+    color: white;
+    border:1px solid currentColor;
+    border-radius: 0.25rem;
+    background-color: var(--c_bg);
+    text-rendering: optimizeSpeed;
+
+}
+
+*[hidden],head,script,link,meta{display: none !important;}
+body{
+    margin:0px;
+    height: 100vh;
+    width:100vw;
+    max-height: 100vh;
+    max-width:100vw;
+    min-height: 100vh;
+    min-width:100vw;
+    overflow: hidden;
+}
+
+#content,
+textarea,
+input[type='text'],
+input::placeholder{
+    text-align: start;
+    color: white;
+    padding:1rem;
+    width:calc(100% - 2rem);
+}
+
+#main{
+    margin: 1rem;
+    max-width: 100vw;
+    height: max-content;
+    display: inline-grid;
+    grid-gap: 0rem;
+    grid-template-areas:
+        'title title title title title menu'
+        'content content content content content menu'
+        'content content content content content menu'
+        'content content content content content defs'
+        'content content content content content defs'
+        'doc doc doc doc doc defs'
+        'doc doc doc doc doc defs';
+    grid-template-columns: calc(10% - 2rem) 10% 10% 50% 10% 10%;
+}
+
+#content li{
+    display: inline-grid;
+    grid-gap: 0rem;
+    grid-template-areas:
+        'name order'
+        'text text';
+    grid-template-columns: 75% 25%;
+    margin:0px;
+    padding:0px;
+}
+
+#title{grid-area: title;}
+#content{grid-area: content;}
+#defs{grid-area: defs;}
+#doc{grid-area: doc;}
+#menu{grid-area:menu;}
+*[key='name']{grid-area: name;}
+*[key='order']{grid-area: order;}
+*[key='text']{grid-area: text;}
+
+#defs>ul>li>input{
+    min-width: 50%;
+    max-width: 50%;
+    padding: 0px;
+    margin:0px -0.2rem 0px -0.2rem;
+}
+
+#menu>ul,
+#defs>ul{
+    display: none;
+}
+
+#menu:target>ul,
+#defs:target>ul,
+#menu:hover>ul,
+#defs:hover>ul,
+#menu:focus>ul,
+#defs:focus>ul,
+#menu:focus-within>ul,
+#defs:focus-within>ul{
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+
+#menu:target,
+#defs:target,
+#menu:hover,
+#defs:hover,
+#menu:focus,
+#defs:focus,
+#menu:focus-within,
+#defs:focus-within,
+input:target,
+textarea:target,
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus,
+input:focus-within,
+textarea:focus-within{
+    filter:invert(1);
+}

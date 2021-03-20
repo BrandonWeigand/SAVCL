@@ -19,6 +19,7 @@ var build = {
     files:['./componets/header.json','./componets/warrenty.json'],
     errors:[]
 }
+var SAVEDATA = '';
 build.run=async function(builddata={}){
     build=Object.assign(build,builddata);
     // load in all the files
@@ -34,12 +35,14 @@ build.run=async function(builddata={}){
     }).catch(function(err){
         build.errors.push("build.run failed on file load",err);
     });
+
+    SAVEDATA=JSON.stringify(build.files);
     
     // strip the tags from all the values
     build.file.strip();
 
     // sort the file componets
-    build.file.sort('order',true);
+    //build.file.sort('order',true);
 
     return(build);
 }
@@ -143,7 +146,7 @@ build.file={
     },
     sort:function(by='order',reverse=false){
         try{
-            build.files=build.files.sort(function (a,b) {
+            build.files=(function (a,b) {
                 let r = 0;
                  switch(by){
                     case'order':{
@@ -231,6 +234,63 @@ build.file={
     },
     merge:function(){// return an object of all the file data merged
 
+    },
+    save:function(){
+        if(typeof(SAVEDATA)!='string'){
+            SAVEDATA = JSON.stringify(SAVEDATA);
+        }
+        let emnt= document.querySelectorAll('#build_dom_control>#save_file')[0];
+        emnt.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(SAVEDATA));
+        emnt.setAttribute('download', 'LICENCE_JSON.txt');
+        emnt.click();
+    },
+    load:async function(){
+        let emnt = build.file.init();
+        emnt.click();
+        return(emnt);
+    },
+    loaded:async function(event){
+        
+        //console.log(event);
+        
+        let files = event.target.files;
+        for(f in files){
+            //console.log('looping files', files[f]);
+            var file = files[f];
+            var reader = new FileReader();
+            reader.onload = async function(emnt) {
+                console.log('onload',{
+                    'reader':reader,
+                    'ready':reader.readyState,
+                    'e':emnt,
+                    'e.t':emnt.target,
+                    'e.t.r':emnt.target.result,
+                    //'e.t.r.d':reader.readAsDataURL(emnt.target.result)
+                });
+
+                let text = emnt.target.result;
+                text=text.split(/[;,\\\/:]/g);
+                text=text.pop();
+                text=atob(text);
+                text=JSON.parse(text);
+                SAVEDATA=text;
+                console.log(text);
+
+                
+                return(emnt);
+            }
+
+            reader.readAsDataURL(file);
+            
+            
+        }
+        
+    },
+    init:function(){
+        let emnt = document.querySelectorAll('#build_dom_control>#load_file')[0];
+        emnt.setAttribute("onchange", "build.file.loaded(event);");
+        console.log('init file emnt',emnt);
+        return(emnt);
     }
 };
 build.tag={
