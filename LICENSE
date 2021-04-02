@@ -10,7 +10,7 @@ SAVCL
 Copyright (c) 2021 Brandon Weigand
 All rights reserved that are not expressly granted in this agreement.
 
-A copy of this License can be found at https://github.com/BrandonWeigand/SAVCL/blob/master/LICENCE .
+A copy of this License can be found at https://github.com/BrandonWeigand/SAVCL/blob/master/LICENSE .
 
 The SOFTWARE’S official REPOSITORY can be found at https://github.com/BrandonWeigand/SAVCL/ .
 
@@ -106,7 +106,7 @@ AGREEMENT TO ATTRIBUTE
             “title”: “SAVCL License”,
             “author”: “Brandon Weigand”
             “source”: “https://github.com/BrandonWeigand/SAVCL/”
-            “license”: “https://github.com/BrandonWeigand/SAVCL/blob/master/LICENCE”
+            “license”: “https://github.com/BrandonWeigand/SAVCL/blob/master/LICENSE”
             “version”: “8eb0a7bbb31908eb7dfa98253c3508f183ea9f7b”
         }
     )
