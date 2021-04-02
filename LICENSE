@@ -1,0 +1,255 @@
+SOFTWARE LICENSE AND LICENSE TERMS
+
+SAVCL
+    Source
+    Available
+    Version
+    Control
+    License
+
+Copyright (c) 2021 Brandon Weigand
+All rights reserved that are not expressly granted in this agreement.
+
+A copy of this License can be found at https://github.com/BrandonWeigand/SAVCL/blob/master/LICENSE .
+
+The SOFTWARE’S official REPOSITORY can be found at https://github.com/BrandonWeigand/SAVCL/ .
+
+The COPYRIGHT HOLDER can be contacted at brandonweigand@gmail.com .
+
+The COPYRIGHT HOLDER can receive mail which does not require a response at 
+2374 state highway 80,
+West Burlington, NY,
+13482
+
+
+AGREEMENT TO USE AT YOUR OWN RISK AND WITHOUT WARRANTY
+
+    This SOFTWARE is provided "AS IS"; without any kind of warranty or guarantee; express, implied and/or otherwise.
+    MEMBERS are not liable for DAMAGES, CLAIMS or other LIABILITIES which may arise from use, connection or intended causation of this SOFTWARE or interactions with MEMBERS in relation, connection or association to this SOFTWARE.
+    YOU assume any COSTS, DAMAGES, and/or LIABILITIES that arise from use, connection or intended causation of this SOFTWARE under any/all circumstances.
+    This LICENSE AGREEMENT is limited to the maximum extent permitted by the COPYRIGHT HOLDER’s LOCAL AREA's LAWS.
+
+
+AGREEMENT TO LICENSE TERMS
+
+    YOU are GRANTED the NON-TRANSFERABLE, NON-EXCLUSIVE, NON-SUBLICENSABLE; LICENSE to USE, REPRODUCE, DISPLAY, PERFORM, and/or MODIFY the SOFTWARE; except as described in this LICENSE AGREEMENT.
+    This LICENSE becomes effective on the date YOU accept this LICENSE AGREEMENT and/or obtain the SOFTWARE via any legal means.
+    This LICENSE does not GRANT YOU any TITLE, OWNERSHIP and/or PRIVILEGES to the SOFTWARE
+
+
+AGREEMENT TO DISTRIBUTION TERMS
+
+    YOU may DISTRIBUTE one or multiple COPIES of the SOFTWARE to ANYONE who have AGREED to this SOFTWARE LICENSE.
+    YOU AGREE that YOU will not DISTRIBUTE this SOFTWARE in any way that could deny REVENUE to the COPYRIGHT HOLDER and/or MEMBERS.
+
+
+AGREEMENT TO PERFORMANCE TERMS
+
+    YOU AGREE that the act of making this SOFTWARE’S FEATURES available to ANYONE; without them obtaining a COPY of this SOFTWARE and/or AGREEING to this LICENSE; shall be treated as a PUBLIC PERFORMANCE of the SOFTWARE.
+    YOU AGREE that YOU will not PERFORM the SOFTWARE in any way that could conflict with this SOFTWARE LICENSE.
+    YOU AGREE that YOU will not PERFORM this SOFTWARE in any way that could deny REVENUE to the COPYRIGHT HOLDER and/or MEMBERS.
+
+
+AGREEMENT TO DISPLAY TERMS
+
+    YOU AGREE that the act of making this SOFTWARE’S SOURCE CODE or any of its GRAPHICAL OUTPUT; including but not limited to image, video, audio and/or text available to ANYONE; without them obtaining a COPY of this SOFTWARE and/or AGREEING to this LICENSE; shall be treated as a PUBLIC DISPLAY of the SOFTWARE.
+    YOU AGREE that YOU will not DISPLAY the SOFTWARE in any way that could conflict with this SOFTWARE LICENSE.
+    YOU AGREE that YOU will not DISPLAY this SOFTWARE in any way that could deny REVENUE to the COPYRIGHT HOLDER and/or MEMBERS.
+
+
+AGREEMENT TO MODIFICATION TERMS
+
+    YOU AGREE that the act of making any changes to this SOFTWARE, COPIES of this SOFTWARE and/or VERSIONS of this SOFTWARE; shall be treated as MODIFYING the SOFTWARE.
+    YOU AGREE that creating SOFTWARE that requires the use of this SOFTWARE and or any of its FEATURES; shall be treated as MODIFYING the SOFTWARE.
+    YOU AGREE that all DERIVATIVE WORKS of this SOFTWARE; shall be treated as MODIFICATIONS to this SOFTWARE.
+    YOU AGREE to make any/all MODIFICATIONS of this SOFTWARE available to the COPYRIGHT HOLDER.
+    YOU AGREE that OWNERSHIP of any MODIFICATIONS of this SOFTWARE shall belong to the COPYRIGHT HOLDER.
+    YOU AGREE THAT any PATENTS, TRADEMARKS, COPYRIGHTS that YOU hold cannot prevent the COPYRIGHT HOLDER from accessing FEATURES and/or SOURCE CODE of MODIFICATIONS, VERSIONS and/or COPIES of this SOFTWARE.
+
+
+AGREEMENT TO LICENSE EXPIRATION
+
+    YOU AGREE that the COPYRIGHT HOLDER may REVOKE, TERMINATE, SUSPEND, INVALIDATE and/or EXPIRE YOUR LICENSE; without NOTICE, CAUSE, EXPLANATION, and/or REFUND.
+
+
+AGREEMENT TO CONTRIBUTE
+
+    YOU agree to pay the COPYRIGHT HOLDER ROYALTY equal to 5% of all worldwide gross revenue from SALE, CROWDFUNDING, ADVERTISING, SUBSCRIPTION and/or any other form of REVENUE.
+    YOU agree to pay the COPYRIGHT HOLDER a 5% late fee; for each calendar quarter; for any amounts unpaid after the required PAYMENT DUE DATE; in addition to all other ROYALTIES and/or fees.
+    YOU agree to pay all taxes on all PAYMENTS paid by YOU under this agreement other than the taxes the COPYRIGHT HOLDER is legally obligated to pay on their income.
+
+
+PROMISE OF REASONABLE ROYALTIES.
+
+    YOU are exempt from paying any ROYALTY to the COPYRIGHT HOLDER if YOUR lifetime gross revenue is less than $100,000.00 USD.
+    YOU are exempt from paying any ROYALTY to the COPYRIGHT HOLDER if YOUR gross revenue for this calendar quarter is less than $10,000.00 USD.
+    YOU are exempt from paying any ROYALTY to the COPYRIGHT HOLDER if YOU have had a PUSH REQUEST accepted into this SOFTWARE's REPOSITORY's DEFAULT BRANCH after YOUR previous DUE DATE and before YOUR next DUE DATE.
+    YOU are exempt from paying any ROYALTY to the COPYRIGHT HOLDER if YOU have only used the SOFTWARE in ways that qualify for both personal and non-commercial use.
+    YOU are exempt from paying any ROYALTY to the COPYRIGHT HOLDER if the COPYRIGHT HOLDER has not made and/or has not accepted at least one PUSH REQUEST into the SOFTWARE'S official REPOSITORY'S DEFAULT BRANCH as defined by this license within 1 year of YOUR last DUE DATE.
+    YOU are exempt from paying any ROYALTY to the COPYRIGHT HOLDER if the COPYRIGHT HOLDER has not granted and/or has denied YOU "READ ACCESS" to the SOFTWARE'S REPOSITORY.
+    YOU are exempt from paying any ROYALTY to the COPYRIGHT HOLDER if all of the following are true : The COPYRIGHT HOLDER has more than 10 employees across all/any companies at the time of YOUR DUE DATE and YOU have less than 10 employees across all/any companies at the time of YOUR DUE DATE.
+
+AGREEMENT TO ATTRIBUTE
+
+    YOU agree to ATTRIBUTE the COPYRIGHT HOLDER and this SOFTWARE on a top level page of any website using this SOFTWARE in any way and/or any website related to any SOFTWARE related to SOFTWARE using this SOFTWARE in any way.
+    YOU agree to ATTRIBUTE the COPYRIGHT HOLDER and this SOFTWARE on Command Line Interfaces whenever an output would be generated; at least once per session.
+    YOU agree to ATTRIBUTE the COPYRIGHT HOLDER and this SOFTWARE on video using this SOFTWARE in any way and/or any video related to any SOFTWARE related to SOFTWARE using this SOFTWARE in any way: within credits before or after the content of the video.
+    YOU agree to ATTRIBUTE the COPYRIGHT HOLDER and this SOFTWARE on any file generated by and/or using this SOFTWARE inside the metadata of the file.
+    YOU agree to provide the attribution information about this SOFTWARE in JSON format: the SOFTWARE’S name as "title", the COPYRIGHT HOLDER’S name as "author", this SOFTWARE REPOSITORY website as "source", the website for this LICENSE as "license" and the VERSION of this SOFTWARE that YOU are using as "version”.
+
+    ( EXAMPLE of top level page: https://your-domain.com/attribution/ )
+    ( EXAMPLE of page that is not top level: https://your-domain.com/anything/attribution/ )
+    ( EXAMPLE of software related to the website: APP uses SAVCL SOFTWARE and/but the website does not.)
+    ( EXAMPLE of software related to the use of this SOFTWARE: APP does not use SAVCL SOFTWARE and/but the website does.)
+    ( EXAMPLE of JSON attribution: 
+        {
+            “title”: “SAVCL License”,
+            “author”: “Brandon Weigand”
+            “source”: “https://github.com/BrandonWeigand/SAVCL/”
+            “license”: “https://github.com/BrandonWeigand/SAVCL/blob/master/LICENSE”
+            “version”: “8eb0a7bbb31908eb7dfa98253c3508f183ea9f7b”
+        }
+    )
+
+
+AGREEMENT TO DOCUMENT
+
+    YOU agree to keep accurate records of your developments, manufacturing, distributions, modifications and sales.
+    YOU agree to give consent to the COPYRIGHT HOLDER to perform audits of any of YOUR financial records that could be used to determine YOUR REVENUE.
+    YOU agree to give consent to the COPYRIGHT HOLDER to perform audits of any of YOUR records that could be used to determine how many employees YOU have employed.
+    YOU agree to give consent to the COPYRIGHT HOLDER to perform audits of any of YOUR records related to developments, manufacturing, distributions, and/or sales.
+    YOU agree to be responsible for the cost of the audit and any LIABILITIES incurred by the COPYRIGHT HOLDER in relation to the audit; whenever legally acceptable.
+
+
+PROMISE TO PROVIDE
+
+    The COPYRIGHT HOLDER AGREES to provide “READ ACCESS” to this SOFTWARE’S REPOSITORY to YOU.
+
+
+AGREEMENT TO UPDATE SOFTWARE
+
+    YOU agree to UPDATE the SOFTWARE whenever a new VERSION of this SOFTWARE becomes available to YOU with the same BRANCH NAME of the VERSION of the software you are using.
+    YOU agree to be responsible for knowing whenever a more up to date VERSION of the SOFTWARE becomes available to YOU.
+    YOU agree that the COPYRIGHT HOLDER has no responsibility to inform you whenever a more up to date VERSION of the software becomes available to YOU.
+    YOU agree that the COPYRIGHT HOLDER has no responsibility to ensure, guarantee, and/or consider compatibility with YOUR USE of the software.
+
+
+AGREEMENT TO COMPLY WITH LAW
+
+    YOU agree to comply with all YOUR LOCAL LAWS.
+    YOU agree to only use the SOFTWARE in ways that comply with YOUR LOCAL LAWS.
+    YOU agree to only use the SOFTWARE in ways that comply with the COPYRIGHT HOLDERS LOCAL LAWS.
+    YOU agree that if this SOFTWARE, LICENSE and/or LICENSE AGREEMENT should violate one or more of YOUR LOCAL LAWS and/or the COPYRIGHT HOLDER’S LOCAL LAWS; YOU are not granted a LICENSE to use this SOFTWARE and YOU are responsible for any DAMAGES, LIABILITIES, FEES and/or loss of REVENUE that the COPYRIGHT HOLDER or MEMBERS incur due to this SOFTWARE, LICENSE and/or LICENSE AGREEMENT.
+
+
+AGREEMENT TO ABSORB DAMAGES
+
+    YOU AGREE that YOU are financially responsible for any DAMAGES, LIABILITIES, FEES and/or loss of REVENUE that the COPYRIGHT HOLDER or MEMBERS incur due to YOUR use of this SOFTWARE, LICENSE and/or LICENSE AGREEMENT.
+
+
+AGREEMENT TO CONFLICT RESOLUTION
+
+    YOU agree to attempt to solve any DISPUTE with the COPYRIGHT HOLDER and/or and MEMBERS informally within a minimum of 60 days before YOU file any CLAIM and/or DISPUTE against the COPYRIGHT HOLDER and/or MEMBERS.
+    YOU agree that you will make daily communications with the COPYRIGHT HOLDER for a minimum of 60 days before YOU file any CLAIM and/or DISPUTE againts the COPYRIGHT HOLDER and/or MEMBERS.
+    YOU agree that failure to file any CLAIM and/or DISPUTE within one year from when it could first be filed will result in the CLAIM and/or DISPUTE becoming permanently barred.
+    YOU agree that if YOU and the COPYRIGHT HOLDER and/or MEMBERS cannot come to an agreement after informal attempts at a resolution; YOU will file the CLAIM and/or DISPUTE in the same country and state/province and within 25 miles of the COPYRIGHT HOLDER’S current home address, mailing address, business address or address given exclusively for this use by the COPYRIGHT HOLDER.
+
+
+AGREEMENT TO COMPLY WITH LICENSING RESTRICTIONS
+
+    YOU agree to never DISTRIBUTE, PERFORM, DISPLAY, MODIFY this SOFTWARE without this LICENSE or without another LICENSE provided by the COPYRIGHT HOLDER.
+    YOU agree to never DISTRIBUTE, MODIFY, PREFORM, COMBINE and/or include this SOFTWARE with any code, software and/or other content which is covered by a license that would directly or indirectly require that all or part of this SOFTWARE LICENSE be governed under any terms other than those of this LICENSE AGREEMENT.
+
+
+AGREEMENT TO UNDERSTAND CONTRACT
+
+    YOU shall not agree to this LICENSE AGREEMENT without fully understanding all aspects of this LICENSE AGREEMENT.
+    YOU agree that DEFINITIONS of all/any KEY-WORDS in this LICENSE AGREEMENT that are defined by the definition section of this agreement are applicable to the agreement regardless of the capitalization, punctuation, grammar, pluralization, possession, multiplicity and/or abbreviation of all/any KEY-WORDS in this agreement.
+    YOU AGREE that any/all EXAMPLES in this LICENSE do not limit this LICENSE to any/all EXAMPLES.
+    YOU agree that any/all exempt/exemptions to ROYALTIES only apply to ROYALTIES that YOU would otherwise be required to pay by this license.
+
+
+DEFINITIONS 
+
+    [ANYONE]: One or more people, devices and/or entities
+
+    [PAYMENT DUE DATE] : The closest future date to the current date in the following list (January 1st, April 1st, July 1st, October 1st)
+
+    [MEMBER,MEMBERS]: A group of one or more of the following ( AUTHOR, COPYRIGHT HOLDER, CONTRIBUTOR, DISTRIBUTER and/or AFFILIATE )
+
+    [AUTHOR]: An individual who has created copyrightable content for this software.
+
+    [COPYRIGHT HOLDER]: The individual who owns the copyrights to this software.
+
+    [CONTRIBUTOR]: An individual who has made financial contributions to the software by means of donations and/or paying royalties for this software.
+
+    [DISTRIBUTER]: ANYONE that has made a copy of this software available to ANYONE.
+
+    [AFFILIATE]: ANYONE who has distributed copies of this software and/or encouraged ANYONE through legal means to agree to this contract.
+
+    [LICENSE AGREEMENT, SOFTWARE LICENSE]: This legally binding contract.
+
+    [LOCAL AREA]: A geographic location.
+
+    [LOCAL LAW]: The laws of the state or country that govern all claims and disputes concerning this software.
+
+    [YOU,YOUR,YOURSELF]: ANYONE who has agreed to this contract and is responsible if the terms of this contract are breached.
+
+    [LICENSE]: A contract that grants limited permissions to distribute, modify, perform, resale and/or use this software.
+
+    [SOFTWARE]: Any/all digital assets included in this software and its repository.
+
+    [DAMAGE]: one or more than one of the following ( bodily injury, property damage, brand damage, loss of revenue ) that is created by the result of an action or lack of action.
+
+    [LIABILITIES]: Any legal responsibility ordered by the courts and/or meditations.
+    [COST]: Any financial burden created by the result of an action or lack of action.
+
+    [USE]: Run the software and/or access any of the software's features.
+
+    [REPRODUCE]: To make one or more COPY of this software.
+
+    [DISPLAY]: To make this software temporarily available to ANYONE and/or make any of the SOFTWARE'S GRAPHICAL OUTPUT available to ANYONE.
+
+    [PREFORM]: To make this software temporarily available to ANYONE and/or make any of the SOFTWARE'S FEATURES available to ANYONE.
+
+    [MODIFY]: to make any change to one or more than one COPY.
+
+    [DISTRIBUTE]: to make a copy available to someone other than yourself and the COPYRIGHT HOLDER, and/or to make SOFTWARE’S functionality available on a network.
+
+    [COPY, COPIES]: One or more than one of the following ( DIRECT COPY, MODIFIED COPY, VERSIONED COPY )
+
+    [END USER]: ANYONE who can access the SOFTWARE'S FEATURES and/or GRAPHICAL OUTPUT.
+
+    [DIRECT COPY]: A copy of this software that is an exact copy of the software repositories default branch.
+
+    [MODIFIED COPY]: Any copy of this software that is not a direct copy.
+
+    [VERSIONED COPY]: Any copy of this software that is not a direct copy and is available in the software's repository.
+
+    [VERSION]: A COPY of this SOFTWARE that is available in the software's repository, and categorized by BRANCH NAME.
+
+    [COPYRIGHT HOLDER]: ANYONE who owns the copyrights and intellectual properties of this SOFTWARE.
+
+    [SALE]: Any exchange of goods, services and/or financial assets.
+
+    [CROWDFUNDING]: An agreement to receive financial assets.
+
+    [ADVERTISING]: Any display of text, audio and/or visual content that is not part of this software; whether or not payment was received for displaying the content.
+
+    [SUBSCRIPTION]: An agreement to receive recurring payments over a period of time.
+
+    [REVENUE]: Any financial asset that is used to calculate gross revenue.
+
+    [PAYMENT]: A transfer of financial assets, goods and/or services.
+
+    [PUSH REQUEST]: A request to make a change to the software's repository by anyone using git software, including but not limited to the owner of the repository and members of the repository. All intellectual properties and all copyrights of the push request and its contents are transferred to the repositories owner.
+
+    [REPOSITORY]: A history of all changes made to software and is managed by git software.
+
+    [BRANCH NAME]: The name of a version of the software that the repository owner has designated as an alternative to the DEFAULT BRANCH.
+
+    [DEFAULT BRANCH]: A version of the software that the repository owner has designated as the most reliable version of the software.
+
+    [OWNERSHIP]: the possession of rights to copyrights, intellectual properties, patents and/or any/all trademarks.
+
+
